@@ -348,6 +348,16 @@ and (orientation : portrait) {
   .back .card-right {
     font-size: 10px !important;
   }
+  .caption {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #googlemap {
+    height: 52% !important;
+  }
+  .mobile-margin {
+    margin-top: 0 !important;
+  }
 }
 
 
