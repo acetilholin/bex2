@@ -9,7 +9,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Avto Welt d.o.o.</title>
+    <title>Bex Bau</title>
+
+
     <!-- Styling files -->
     <link rel="stylesheet" href="custom-style.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -49,13 +51,22 @@
 <div id="home">
     <nav class="navbar navbar-expand-lg fixed-top navbar-color shadow-sm">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+           <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="custom-toggler-icon"><i class="fas fa-bars bars-color" id="bars"></i></span>
+            </button>-->
+            <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
             </button>
+            <span class="dark-blue" style="font-size: 1rem;">
+                <a class="navbar-brand" href="#">
+                    <span id="logo"><img class="logo" src="img/logo-transparent.png" alt=""></span>
+                </a>
+            </span>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#d">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Über uns</a>
@@ -71,11 +82,6 @@
                     </li>
                 </ul>
             </div>
-            <span class="dark-blue ml-auto" style="font-size: 1rem;">
-                <a class="navbar-brand" href="#">
-                    <span id="logo"><img class="logo" src="img/logo-transparent.png" alt=""></span>
-                </a>
-            </span>
         </div>
     </nav>
     <div class="landing">
@@ -264,7 +270,7 @@
     </div>
 </div>
 <footer>
-    <div class="container">
+    <div class="container section-space">
         <div class="row">
             <div class="col-9">
                 <h5>Standort</h5>
@@ -277,17 +283,102 @@
             <div class="col-3">
                 <br>
                 <p>
-                    Datenschutz<br>
-                    Impressum<br>
-                    Disclaimer<br>
+                    <a href="#" data-toggle="modal" data-target="#datenschutz" class="no-link">Datenschutz</a><br>
+                    <a href="#" data-toggle="modal" data-target="#impressum" class="no-link">Impressum</a><br>
+                    <a href="#" data-toggle="modal" data-target="#disclaimer" class="no-link">Disclaimer</a><br>
                 </p>
             </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                Bex Baugesellschaft m.b.H. © 2019
+            </div>
+            <div class="col-3">
+                <a href="#home" class="no-link"><i class="fas fa-chevron-up"></i>&nbsp;Nach oben</a>
+            </div>
+        </div>
+    </div>
 </footer>
-
-
 </body>
 </html>
+<!-- modal datenschutz -->
+<div class="modal fade" id="datenschutz" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content sharp-edges">
+            <div class="modal-body modal-body-padding">
+                <h5 class="text-center">Datenschutzerklärung</h5>
+                <p>Wir verarbeiten Ihre Daten ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO).</p>
+                <p>
+                    Wenn Sie per Formular auf der Website oder per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung Ihrer Anfrage und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
+                </p>
+                <p>
+                    Wir weisen darauf hin, dass zum Zweck der einfacheren Kontaktaufnahme Ihr Name, Anschrift und E-Mail Adresse gespeichert werden. Eine Datenübermittlung an Dritte erfolgt nicht.
+                </p>
+                <p>
+                    Ihnen stehen bezüglich Ihrer bei uns gespeicherten Daten grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise verletzt worden sind, können Sie sich bei der uns <a href="mailto:office@bex.at" class="base-color-font">office@bex.at</a>  oder der Datenschutzbehörde beschweren.
+                </p>
+                <p>
+                    Unseren Datenschutzbeauftragten erreichen Sie unter<br>
+                    01/218 38 00 – 15<br>
+                    <a href="mailto:office@bex.at" class="base-color-font">office@bex.at</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal impressum -->
+<div class="modal fade" id="disclaimer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content sharp-edges">
+            <div class="modal-body modal-body-padding">
+                <h5 class="text-center">Disclaimer</h5>
+                <p style="font-weight: bold" class="space-top">Nutzungsbedingungen</p>
+                <p class="text-align">
+                    Die Inhalte dieser Web-Site sind dienen ausschließlich der Information.
+                    Es kommen durch die Nutzung der Inhalte der Web-Site keinerlei Rechtsgeschäfte zwischen der Eigentümerin der Web-Site und den Nutzern zu Stande.
+                    Die weitere Vorgangsweise zwischen Anbietern und Nutzern und der mögliche spätere Abschluss von Aufträgen zwischen Anbietern und Nutzern liegen im ausschließlichen Ermessen der Nutzer.
+                </p>
+                <p style="font-weight: bold">Copyright</p>
+                <p class="text-align">Der Inhalt dieser Web-Site ist urheberrechtlich geschützt. Die Informationen sind nur für die persönliche Verwendung bestimmt. Jede weitergehende Nutzung insbesondere die Speicherung in Datenbanken, Vervielfältigung und jede Form von gewerblicher Nutzung sowie die Weitergabe an Dritte - auch in Teilen oder in überarbeiteter Form - ohne Zustimmung des Website-Inhabers ist untersagt. Die Einbindung einzelner Seiten dieser Web-Site in fremde Frames ist untersagt.
+                    Die Betreiber dieser Web-Site ist bemüht, stets die Urheberrechte anderer zu beachten bzw. auf selbst erstellte sowie lizenzfreie Werke zurückzugreifen.</p>
+                <p style="font-weight: bold">Haftungsausschluss</p>
+                <p class="text-align">Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen.</p>
+                <p class="text-align">Im Hinblick auf die technischen Eigenschaften des Internets kann auch keine Gewähr für die Authentizität, Richtigkeit und Vollständigkeit der im Internet zur Verfügung gestellten Informationen übernommen werden. Es wird auch keine Gewähr für die Verfügbarkeit oder den Betrieb der gegenständlichen Web-Site und ihrer Inhalte übernommen. Jede Haftung für unmittelbare, mittelbare oder sonstige Schäden, unabhängig von deren Ursachen, die aus der Benutzung oder Nichtverfügbarkeit der Daten und Informationen dieser Web-Site erwachsen, wird, soweit rechtlich zulässig, ausgeschlossen.</p>
+                <p style="font-weight: bold">Datenschutz</p>
+                <p class="text-align">Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder eMail-Adressen) erhoben werden, erfolgt die Bekanntgabe dieser Daten stets auf freiwilliger Basis. Die Nutzung der Angebote und Dienste ist dieser Web-Site, soweit möglich, stets ohne Angabe personenbezogener Daten möglich.</p>
+                <p class="text-align">Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrücklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich <b>rechtliche Schritte</b> im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch <b>Spam-Mails</b>, vor.</p>
+                <p style="font-weight: bold">Haftung für Links</p>
+                <p class="text-align">Dieses Web-Site enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei bekannt werden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- modal disclaimel -->
+<div class="modal fade" id="impressum" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content sharp-edges">
+            <div class="modal-body modal-body-padding">
+                <h5 class="text-center">Impressum & Offenlegung gemäß § 25 des Mediengesetzes</h5>
+                <p style="font-weight: bold" class="space-top">Bex Baugesellschaft m.b.H.</p>
+                <p>
+                    Hedwiggasse 4<br>
+                    1020 Wien<br>
+                    <br>
+                    Tel:  +43 (1) 218 26 84 - 0<br>
+                    Fax:  +43 (1) 218 26 84 - 20<br>
+                    <br>
+                    ATU 36992705<br>
+                    Firmenbuchnummer: 38745d<br>
+                    Handelsgericht Wien<br>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Google Maps-->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyAgWaCyoDpO3-g1t9OWCyz4-NAG4BnJ4QY&callback=mapsInit"></script>

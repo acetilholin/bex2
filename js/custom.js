@@ -28,6 +28,12 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function () {
+    $('.second-button').on('click', function () {
+        $('.animated-icon2').toggleClass('open');
+    });
+});
+
 $(document).ready(function(){
     $('[data-toggle="tooltip1"]').tooltip();
     $('[data-toggle="tooltip2"]').tooltip();
@@ -45,7 +51,17 @@ $(document).ready(function(){
     });
 });
 
-
+$(document).ready(function () {
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('shrink');
+            $("nav .logo").addClass('shrink-image logo-mobile');
+        } else {
+            $('nav').removeClass('shrink');
+            $("nav .logo").removeClass('shrink-image logo-mobile');
+        }
+    });
+});
 
 $(document).ready(function() {
     $(window).scroll(function() {

@@ -9,7 +9,8 @@
   left: 50%;
   margin-left: -10px;
   width: 60px;
-  height: 50px; /*change with size of arrow to make it sit on bottom of page*/
+  height: 50px;
+  color: rgba(255,255,255, 0.7);
 }
 a.down-arrow {
   display: block;
