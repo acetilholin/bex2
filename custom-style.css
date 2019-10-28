@@ -210,8 +210,6 @@ nav.shrink a {
   backface-visibility: hidden;
 }
 .back {
-  -webkit-perspective: 900000px;
-  perspective: 900000px;
   -webkit-transform: rotateY( 180deg );
   transform: rotateY( 180deg );
   font-size: .9rem;
@@ -401,5 +399,13 @@ and (orientation : portrait) {
     width: 100% !important;
     max-width: 100% !important;
   }
-
+  .caption h1 {
+    font-size: 2rem;
+  }
+  .section-title {
+    font-size: 2rem !important;
+  }
+  p.lead {
+    text-align: justify;
+  }
 }
