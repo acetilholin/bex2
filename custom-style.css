@@ -183,6 +183,15 @@ nav.shrink a {
 
 /* cards */
 
+.card {
+    border-radius: 0 !important;
+    padding: 10px !important;
+    height: 480px !important;
+}
+.front .card{
+    background-color:  #0079A8 !important;
+    color: white !important;
+}
 .card-flip {
     -webkit-perspective: 1000px;
     perspective: 1000px;
@@ -317,8 +326,8 @@ body.modal-open{overflow:auto;padding-right:0 !important;}
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-  .card .back {
-    font-size: 12.3px;
+  .card p {
+    font-size: 12.5px;
   }
   .back .card-right {
     font-size: 10px !important;
@@ -360,25 +369,5 @@ and (-webkit-min-device-pixel-ratio: 1){
   }
   .fa-2x {
     font-size: 2.5rem !important;
-  }
-}
-
-/* iPhone 6, 7, & 8 portrait */
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px)
-and (orientation : portrait) {
-  .caption {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-  .caption h1 {
-    font-size: 2rem;
-  }
-  .section-title {
-    font-size: 2rem !important;
-  }
-  p.lead {
-    text-align: justify;
   }
 }
