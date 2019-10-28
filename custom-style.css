@@ -338,6 +338,8 @@ body.modal-open{overflow:auto;padding-right:0 !important;}
 }
 
 /* mobile optimization */
+
+/* iPad portrait */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
@@ -363,4 +365,38 @@ and (orientation : portrait) {
   }
 }
 
+/* iPad 1,2 mini */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+and (-webkit-min-device-pixel-ratio: 1){
+  .card .back {
+    font-size: 12.3px;
+  }
+  .back .card-right {
+    font-size: 10px !important;
+  }
+  .caption {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  #googlemap {
+    height: 54% !important;
+  }
+  .mobile-margin {
+    margin-top: 0 !important;
+  }
+  .fa-2x {
+    font-size: 2.5rem !important;
+  }
+}
+
+/* iPhone 6,7,8 portrait */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait) {
+
+}
 
