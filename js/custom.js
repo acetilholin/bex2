@@ -28,8 +28,6 @@ $(document).ready(function(){
     });
 });
 
-document.querySelector(".card-flip").classList.toggle("flip");
-
 $(document).ready(function () {
     $('.second-button').on('click', function () {
         $('.animated-icon2').toggleClass('open');
@@ -51,6 +49,10 @@ $(document).ready(function(){
     $(window).scroll(function(){
         $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
     });
+});
+
+$(document).ready(function(){
+    document.querySelector(".card-flip").classList.toggle("flip");
 });
 
 $(document).ready(function () {
