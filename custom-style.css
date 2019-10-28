@@ -271,8 +271,8 @@ nav.shrink a {
   position: absolute;
   width: 100%;
   left: 0;
-  z-index: 0;
-  height: 71% !important;
+  z-index: -1;
+  height: 100% !important;
 }
 .z-depth-5 {
   -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3) !important;
@@ -390,18 +390,14 @@ and (-webkit-min-device-pixel-ratio: 1){
   }
 }
 
-/* iPad mini */
-@media only screen and (width:768px) and (resolution: 163dpi) {
-  #googlemap {
-    height: 60% !important;
-  }
-}
-
-/* iPhone 6,7,8 portrait */
+/* iPhone 6, 7, & 8 portrait */
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px)
 and (orientation : portrait) {
+  .caption {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 
 }
-
