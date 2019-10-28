@@ -210,6 +210,8 @@ nav.shrink a {
   backface-visibility: hidden;
 }
 .back {
+  -webkit-perspective: 900000px;
+  perspective: 900000px;
   -webkit-transform: rotateY( 180deg );
   transform: rotateY( 180deg );
   font-size: .9rem;
