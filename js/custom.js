@@ -28,6 +28,8 @@ $(document).ready(function(){
     });
 });
 
+document.querySelector(".card-flip").classList.toggle("flip");
+
 $(document).ready(function () {
     $('.second-button').on('click', function () {
         $('.animated-icon2').toggleClass('open');
