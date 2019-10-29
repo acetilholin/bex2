@@ -160,8 +160,8 @@ nav.shrink a {
   z-index: -1;
 }
 .caption {
-  width: 90%;
-  max-width: 90%;
+  width: 100%;
+  max-width: 100%;
   position: absolute;
   top: 38%;
   z-index: 1;
@@ -243,25 +243,32 @@ nav.shrink a {
   margin: -2px;
 }
 
-/* tooltips */
+/* tooltips
 .tooltip-inner {
   border-radius: 0 !important;
 }
+ */
 
 /* contact */
+
+#contact {
+  position: relative;
+}
+
 #googlemap {
   position: absolute;
   width: 100%;
-  left: 0;
-  z-index: -1;
-  height: 100% !important;
-}
+  z-index: 0;
+  height: 100%;
+ }
+
 .z-depth-5 {
   -webkit-box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3) !important;
 }
 .card-contact {
   border-radius: 0 !important;
   height: 500px !important;
+  margin: 1rem 0;
 }
 .button-base-color {
   background-color: #0079A8 !important;
@@ -295,6 +302,7 @@ textarea {
 footer {
   background-color: #005a87;
   color: white;
+  height: 100%;
 }
 .section-space {
   padding-top: 1rem;
@@ -332,13 +340,6 @@ and (orientation : portrait) {
   .back .card-right {
     font-size: 10px !important;
   }
-  .caption {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-  #googlemap {
-    height: 52% !important;
-  }
   .mobile-margin {
     margin-top: 0 !important;
   }
@@ -347,27 +348,11 @@ and (orientation : portrait) {
   }
 }
 
-/* iPad 1,2 mini */
 @media only screen
 and (min-device-width : 768px)
 and (max-device-width : 1024px)
-and (orientation : portrait)
-and (-webkit-min-device-pixel-ratio: 1){
-  .card .back {
-    font-size: 12.3px;
-  }
-  .back .card-right {
-    font-size: 10px !important;
-  }
-  .caption {
-    width: 100% !important;
-    max-width: 100% !important;
-  }
-
-  .mobile-margin {
-    margin-top: 0 !important;
-  }
-  .fa-2x {
-    font-size: 2.5rem !important;
+and (orientation : landscape) {
+  .card p {
+    font-size: 15px;
   }
 }

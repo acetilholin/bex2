@@ -33,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bluesky" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bex-git" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -61,7 +61,8 @@
       <updated>1572028885486</updated>
       <workItem from="1572028886792" duration="4220000" />
       <workItem from="1572082675147" duration="28236000" />
-      <workItem from="1572167548975" duration="34278000" />
+      <workItem from="1572167548975" duration="37135000" />
+      <workItem from="1572337247122" duration="12199000" />
     </task>
     <servers />
   </component>
@@ -73,7 +74,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
