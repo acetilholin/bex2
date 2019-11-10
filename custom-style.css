@@ -423,7 +423,7 @@ and (orientation: portrait) {
         text-align: justify;
     }
     .back p {
-        font-size: 11.8px !important;
+        font-size: 12.5px !important;
     }
     .mobile-size {
         font-size: 9px !important;
@@ -434,6 +434,15 @@ and (orientation: portrait) {
     .col-sm-9,.col-sm-3 {
         font-size: .8rem !important;
     }
-
+}
+/* iPad mini landscape */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+and (-webkit-min-device-pixel-ratio: 1)  {
+    .back p {
+        font-size: 13px !important;
+    }
 }
 
