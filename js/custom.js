@@ -51,9 +51,6 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    document.querySelector(".card-flip").classList.toggle("flip");
-});
 
 $(document).ready(function () {
     $(window).scroll(function() {
