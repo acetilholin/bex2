@@ -442,7 +442,7 @@ and (max-device-width : 1024px)
 and (orientation : landscape)
 and (-webkit-min-device-pixel-ratio: 1)  {
     .back p {
-        font-size: 13px !important;
+        font-size: 14px !important;
     }
 }
 
