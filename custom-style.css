@@ -386,3 +386,34 @@ and (orientation : portrait) {
     }
 }
 
+@media only screen /* Samsung galaxy S8 */
+and (min-width: 360px)
+and (max-width: 767px)
+and (orientation: portrait) {
+    .caption h1 {
+        font-size: 1.65rem !important;
+    }
+    .caption h3 {
+        font-size: 1.5rem !important;
+    }
+    .section-title,.card-title, .section-space h5 {
+        font-size: 1.3rem;
+    }
+    .lead,.text-align {
+        text-align: justify;
+    }
+    .back p {
+        font-size: 11.8px !important;
+    }
+    .mobile-size {
+        font-size: 9px !important;
+    }
+    .mobile-margin {
+        margin-top: -1rem !important;
+    }
+    .col-sm-9,.col-sm-3 {
+        font-size: .8rem !important;
+    }
+
+}
+
