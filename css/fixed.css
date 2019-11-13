@@ -26,7 +26,7 @@ margin-right: 0px!important;
   height: 100%;
 }
 .home-inner {
-  position: fixed; /* Change to relative to remove fixed style. */
+  position: fixed;
   display: table;
   top: 0;
   left: 0;
@@ -87,5 +87,11 @@ margin-right: 0px!important;
   .row {
     overflow-x: hidden;
     overflow-y: hidden;
+  }
+}
+
+@supports (-ms-ime-align:auto) {
+  .home-inner {
+    position: relative !important;
   }
 }

@@ -92,6 +92,20 @@ $(function () {
     });
 });
 
+$(document).ready(function() {
+    var card = document.querySelector('#card1');
+    var card2 = document.querySelector('#card2');
+
+    card.addEventListener( 'click', function() {
+        card.classList.toggle('flipper');
+    });
+
+    card2.addEventListener('click', function () {
+        card2.classList.toggle('flipper');
+    })
+});
+
+
 
 const position = [48.216274, 16.3915678];
 const centerPosition = [48.2169578, 16.4230718];

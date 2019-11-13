@@ -153,9 +153,10 @@ nav.shrink a {
   font-size: 1rem;
 }
 
+
 /* landing */
 .home-inner {
-    background-image: url('img/cover.jpg');
+    background-image: url('img/cover3.jpg');
     z-index: -1;
 }
 .caption {
@@ -180,6 +181,7 @@ nav.shrink a {
   font-size: 1rem !important;
 }
 
+
 /* cards new */
 .card {
     border-radius: 0 !important;
@@ -200,8 +202,14 @@ nav.shrink a {
     -o-perspective: 1000px;
     -moz-perspective: 1000px;
     -ms-perspective: 1000px;
+     transition: 0.6s;
+     -webkit-transition: -webkit-transform 0.6s;
+     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
 }
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+.flip-container.flipper {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
@@ -213,12 +221,6 @@ nav.shrink a {
     height: 480px !important;
 }
 .flipper {
-    transition: 0.6s;
-    -webkit-transition: -webkit-transform 0.6s;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
     position: relative;
 }
 .front, .back {
@@ -236,9 +238,6 @@ nav.shrink a {
 }
 .front {
     z-index: 2;
-   /* transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);*/
 }
 .back {
     transform: rotateY(180deg);
