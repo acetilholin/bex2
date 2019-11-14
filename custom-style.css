@@ -269,8 +269,14 @@ nav.shrink a {
     perspective: 1000px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
+    /* added extra */
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    /* added extra */
 }
-.flip-container:hover .flipper, .flip-container.hover .flipper {
+.flip-container.flipper {
     transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
