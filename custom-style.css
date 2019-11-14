@@ -266,9 +266,9 @@ nav.shrink a {
     color: white !important;
 }
 .flip-container {
-    perspective: 1000px;
-    -webkit-perspective: 1000px;
-    -moz-perspective: 1000px;
+  /*  perspective: 1200px;
+    -webkit-perspective: 1200px;
+    -moz-perspective: 1200px;*/
 }
 .flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);
@@ -298,7 +298,6 @@ nav.shrink a {
     margin: 12px;
 }
 .front {
-    z-index: 2;
     transform: rotateY(0deg);
     -moz-transform: rotateY(0deg);
     -webkit-transform: rotateY(0deg);
