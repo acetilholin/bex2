@@ -202,7 +202,10 @@ nav.shrink a {
 }
 .flip-container {
     height: 480px;
-   /* perspective: 600px;*/
+    perspective: 800px;
+    -webkit-perspective: 800px;
+    -o-perspective: 800px;
+    -moz-perspective: 800px;
     transition: transform 1s;
     -webkit-transition: -webkit-transform 1s;
     -o-transition: -o-transform 1s;
@@ -233,9 +236,6 @@ nav.shrink a {
     -webkit-transition: 1s;
     -moz-transition: 1s;
     transition: 1s;
-    -webkit-transform: perspective(600px);
-    -moz-transform: perspective(600px);
-    transform: perspective(600px);
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
