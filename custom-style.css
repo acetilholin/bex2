@@ -270,7 +270,7 @@ nav.shrink a {
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
 }
-.flip-container.flipper {
+.flip-container:hover .flipper, .flip-container.hover .flipper {
     transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
