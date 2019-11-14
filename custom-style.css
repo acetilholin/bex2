@@ -182,77 +182,8 @@ nav.shrink a {
 }
 
 
-
-/* cards test */
-/* cards new */
-.card {
-    border-radius: 0 !important;
-    padding: 10px !important;
-    height: 480px !important;
-}
-.front, .back {
-    width: 100%;
-    height: 480px;
-}
-.front .card{
-    background-color:  #0079A8 !important;
-    color: white !important;
-}
-.flip-container {
-    perspective: 1000px;
-    -webkit-perspective: 1000px;
-    -moz-perspective: 1000px;
-}
-.flip-container:hover .flipper, .flip-container.hover .flipper {
-    transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-}
-.flip-container, .front, .back {
-    border-radius: 0 !important;
-    height: 480px !important;
-}
-.flipper {
-    -webkit-transition: -webkit-transform 0.6s;
-    transition: 0.6s;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    position: relative;
-}
-.front, .back {
-    backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.back p {
-    margin: 12px;
-}
-.front {
-    z-index: 2;
-    transform: rotateY(0deg);
-    -moz-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
-}
-.back {
-    transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    background-color: white;
-}
-.card-left {
-    width: 75%; float: left;
-}
-.card-right {
-    width: 25%; float: left;
-    font-weight: 500;
-}
-/* end cards test */
-
 /* cards */
-/*.card {
+.card {
     border-radius: 0 !important;
     padding: 10px !important;
     height: 100%;
@@ -270,7 +201,7 @@ nav.shrink a {
 }
 .flip-container {
     height: 480px;
-    perspective: 600px;
+   /* perspective: 600px;*/
     transition: 0.6s;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -296,9 +227,9 @@ nav.shrink a {
     -webkit-transition: 0.6s;
     -moz-transition: 0.6s;
     transition: 0.6s;
-  !*  -webkit-transform: perspective(600px);
+   /* -webkit-transform: perspective(600px);
     -moz-transform: perspective(600px);
-    transform: perspective(600px);*!
+    transform: perspective(600px);*/
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -312,7 +243,7 @@ nav.shrink a {
 .card-right {
     width: 25%; float: left;
     font-weight: 500;
-}*/
+}
 /* end cards */
 
 
