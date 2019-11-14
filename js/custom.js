@@ -92,18 +92,20 @@ $(function () {
     });
 });
 
+
 $(document).ready(function() {
     var card = document.querySelector('#card1');
     var card2 = document.querySelector('#card2');
 
     card.addEventListener( 'click', function() {
-        card.classList.toggle('flipper');
+        $("#card1").toggleClass("flipped");
     });
 
     card2.addEventListener('click', function () {
-        card2.classList.toggle('flipper');
+        $("#card2").toggleClass("flipped");
     })
 });
+
 
 
 
