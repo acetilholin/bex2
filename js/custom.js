@@ -108,6 +108,21 @@ $(document).ready(function() {
     }
 });
 
+$(document).ready(function() {
+    var btn = document.getElementById("toTop");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    }
+});
+
+
 const position = [48.216274, 16.3915678];
 const centerPosition = [48.2169578, 16.4230718];
 
