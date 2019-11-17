@@ -188,6 +188,7 @@ nav.shrink a {
     color: white !important;
 }
 .flip-container {
+    margin: 2rem 0;
     perspective: 1000px;
     -webkit-perspective: 1000px;
     -moz-perspective: 1000px;
