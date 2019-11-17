@@ -339,6 +339,9 @@ footer {
     border-radius: 4px;
     color: #9b9b9b;
 }
+#toTop:hover {
+    color: #797979;
+}
 
 
 /* modal */
@@ -410,7 +413,7 @@ and (orientation : portrait) {
         margin-top: 1rem;
     }
     #toTop {
-        right: 5px !important;
+        display: none !important;
     }
 }
 
@@ -432,7 +435,7 @@ and (orientation : portrait) {
         margin-top: 1rem;
     }
     #toTop {
-        right: 5px !important;
+        display: none !important;
     }
 }
 
@@ -468,7 +471,7 @@ and (orientation: portrait) {
         margin-top: 1rem;
     }
     #toTop {
-        right: 5px !important;
+        display: none !important;
     }
 }
 /* iPad mini landscape */
