@@ -358,6 +358,7 @@ and (orientation : portrait) {
   .mobile-size {
       font-size: 11px !important;
   }
+
 }
 
 /* iPhone 6, 7, & 8 portrait */
@@ -389,6 +390,11 @@ and (orientation : portrait) {
     .col-sm-9,.col-sm-3 {
         font-size: .8rem !important;
     }
+    .flip-container {
+        perspective: 0 !important;
+        -webkit-perspective: 0 !important;
+        -moz-perspective: 0 !important;
+    }
 }
 
 /* iPhone 6, 7, & 8 Plus portrait */
@@ -404,6 +410,11 @@ and (orientation : portrait) {
     }
     .back p {
         font-size: 13px !important;
+    }
+    .flip-container {
+        perspective: 0 !important;
+        -webkit-perspective: 0 !important;
+        -moz-perspective: 0 !important;
     }
 }
 
@@ -434,6 +445,11 @@ and (orientation: portrait) {
     }
     .col-sm-9,.col-sm-3 {
         font-size: .8rem !important;
+    }
+    .flip-container {
+        perspective: 0 !important;
+        -webkit-perspective: 0 !important;
+        -moz-perspective: 0 !important;
     }
 }
 /* iPad mini landscape */

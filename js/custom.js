@@ -94,20 +94,19 @@ $(function () {
 
 
 $(document).ready(function() {
-    var card = document.querySelector('#card1');
-    var card2 = document.querySelector('#card2');
+    var cards = document.querySelectorAll(".card.effect__click");
+    for (var i = 0, len = cards.length; i < len; i++) {
+        var card = cards[i];
+        clickListener(card);
+    }
 
-    card.addEventListener( 'click', function() {
-        $("#card1").toggleClass("flipped");
-    });
-
-    card2.addEventListener('click', function () {
-        $("#card2").toggleClass("flipped");
-    })
+    function clickListener(card) {
+        card.addEventListener("click", function () {
+            var c = this.classList;
+            c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
+        });
+    }
 });
-
-
-
 
 const position = [48.216274, 16.3915678];
 const centerPosition = [48.2169578, 16.4230718];
