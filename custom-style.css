@@ -260,7 +260,16 @@ nav.shrink a {
 #contact {
   position: relative;
 }
-
+.swal-button {
+    background-color: #0079A8 !important;
+    color: white;
+    border-radius: 0 !important;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.swal-modal {
+    border-radius: 0 !important;
+}
 #googlemap {
   position: absolute;
   width: 100%;
@@ -341,8 +350,12 @@ footer {
 }
 #toTop:hover {
     color: #797979;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
-
+.oben {
+    display: none;
+}
 
 /* modal */
 nav {
@@ -415,6 +428,9 @@ and (orientation : portrait) {
     #toTop {
         display: none !important;
     }
+    .oben {
+        display: block !important;
+    }
 }
 
 /* iPhone 6, 7, & 8 Plus portrait */
@@ -436,6 +452,9 @@ and (orientation : portrait) {
     }
     #toTop {
         display: none !important;
+    }
+    .oben {
+        display: block !important;
     }
 }
 
@@ -472,6 +491,9 @@ and (orientation: portrait) {
     }
     #toTop {
         display: none !important;
+    }
+    .oben {
+        display: block !important;
     }
 }
 /* iPad mini landscape */
