@@ -135,14 +135,10 @@ $(document).ready(function() {
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-        if (navigator.userAgent.match(/i(Phone|Pad)/i) || navigator.userAgent.match(/Android/i)) {
-            btn.style.display = "none";
+        if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
+            btn.style.display = "block";
         } else {
-            if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
-                btn.style.display = "block";
-            } else {
-                btn.style.display = "none";
-            }
+            btn.style.display = "none";
         }
     }
 });
