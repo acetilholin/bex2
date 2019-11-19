@@ -428,6 +428,9 @@ and (orientation : portrait) {
     #toTop {
         right:2px !important;
     }
+    nav {
+        padding-right: 0 !important;
+    }
 }
 
 /* iPhone 6, 7, & 8 Plus portrait */
@@ -449,6 +452,9 @@ and (orientation : portrait) {
     }
     #toTop {
         right:2px !important;
+    }
+    nav {
+        padding-right: 0 !important;
     }
 }
 
@@ -485,6 +491,9 @@ and (orientation: portrait) {
     }
     #toTop {
         right:2px !important;
+    }
+    nav {
+        padding-right: 0 !important;
     }
 }
 /* iPad mini landscape */
