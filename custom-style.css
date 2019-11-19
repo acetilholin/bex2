@@ -425,6 +425,9 @@ and (orientation : portrait) {
     .flip-container {
         margin-top: 1rem;
     }
+    #toTop {
+        right:2px !important;
+    }
 }
 
 /* iPhone 6, 7, & 8 Plus portrait */
@@ -443,6 +446,9 @@ and (orientation : portrait) {
     }
     .flip-container {
         margin-top: 1rem;
+    }
+    #toTop {
+        right:2px !important;
     }
 }
 
@@ -476,6 +482,9 @@ and (orientation: portrait) {
     }
     .flip-container {
         margin-top: 1rem;
+    }
+    #toTop {
+        right:2px !important;
     }
 }
 /* iPad mini landscape */
