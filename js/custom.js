@@ -130,7 +130,7 @@ $(document).ready(function() {
 });*/
 
 $(document).ready(function() {
-    var btn = document.getElementById("toTop");
+  /*  var btn = document.getElementById("toTop");
 
     window.onscroll = function() {scrollFunction()};
 
@@ -140,7 +140,7 @@ $(document).ready(function() {
         } else {
             btn.style.display = "none";
         }
-    }
+    }*/
 });
 
 

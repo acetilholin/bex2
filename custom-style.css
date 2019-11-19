@@ -336,7 +336,7 @@ footer {
 
 /* nav to top icon */
 
-#toTop {
+/*#toTop {
     display: none;
     position: fixed;
     bottom: 100px;
@@ -355,7 +355,7 @@ footer {
 }
 .oben {
     display: none;
-}
+}*/
 
 /* modal */
 nav {
@@ -425,12 +425,6 @@ and (orientation : portrait) {
     .flip-container {
         margin-top: 1rem;
     }
-    #toTop {
-        right:2px !important;
-    }
-    nav {
-        padding-right: 0 !important;
-    }
 }
 
 /* iPhone 6, 7, & 8 Plus portrait */
@@ -449,12 +443,6 @@ and (orientation : portrait) {
     }
     .flip-container {
         margin-top: 1rem;
-    }
-    #toTop {
-        right:2px !important;
-    }
-    nav {
-        padding-right: 0 !important;
     }
 }
 
@@ -488,12 +476,6 @@ and (orientation: portrait) {
     }
     .flip-container {
         margin-top: 1rem;
-    }
-    #toTop {
-        right:2px !important;
-    }
-    nav {
-        padding-right: 0 !important;
     }
 }
 /* iPad mini landscape */
