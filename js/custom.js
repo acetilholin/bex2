@@ -81,7 +81,7 @@ $(function () {
 
 $(function () {
     const element =  document.querySelector('#toTop')
-    element.classList.add('animated', 'bounceIn');
+  /*  element.classList.add('animated', 'bounceIn');*/
 });
 
 /* Sending message function */
@@ -112,6 +112,8 @@ $(function () {
 
 /*
 optionally for cards
+
+
 $(document).ready(function() {
     var cards = document.querySelectorAll(".card.effect__click");
     for (var i = 0, len = cards.length; i < len; i++) {
