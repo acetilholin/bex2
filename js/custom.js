@@ -110,6 +110,8 @@ $(function () {
 });
 
 
+/*
+optionally for cards
 $(document).ready(function() {
     var cards = document.querySelectorAll(".card.effect__click");
     for (var i = 0, len = cards.length; i < len; i++) {
@@ -123,7 +125,7 @@ $(document).ready(function() {
             c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
         });
     }
-});
+});*/
 
 $(document).ready(function() {
     var btn = document.getElementById("toTop");
@@ -131,10 +133,14 @@ $(document).ready(function() {
     window.onscroll = function() {scrollFunction()};
 
     function scrollFunction() {
-        if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
-            btn.style.display = "block";
-        } else {
+        if (navigator.userAgent.match(/i(Phone|Pad)/i) || navigator.userAgent.match(/Android/i)) {
             btn.style.display = "none";
+        } else {
+            if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
         }
     }
 });

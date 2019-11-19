@@ -323,7 +323,7 @@ textarea {
 /* footer */
 footer {
   background-color: #005a87;
-  color: white;
+  color: white !important;
   height: 100%;
 }
 .section-space {
