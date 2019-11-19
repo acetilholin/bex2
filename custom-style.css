@@ -336,7 +336,7 @@ footer {
 
 /* nav to top icon */
 
-/*#toTop {
+#toTop {
     display: none;
     position: fixed;
     bottom: 100px;
@@ -347,12 +347,12 @@ footer {
     padding: 15px;
     border-radius: 4px;
     color: #9b9b9b;
-}*/
-/*#toTop:hover {
+}
+#toTop:hover {
     color: #797979;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-}*/
+}
 .oben {
     display: none;
 }
