@@ -99,14 +99,12 @@ $(function () {
                 icon: "success",
                 button: "Schließen",
             });
-            $("#status-message").append("<div class='alert alert-success alert-dismissible fade show text-center' role='alert'>Sporočilo je bilo poslano!<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div>")
         }).fail(function (data) {
             swal({
-                title: "Nachricht nicht gesendett!",
+                title: "Nachricht nicht gesendet!",
                 icon: "error",
                 button: "Schließen",
             });
-            $("#status-message").append("<div class='alert alert-danger alert-dismissible fade show text-center' role='alert'>Napaka pri pošiljanju!<button type='button' class='close' data-dismiss='alert' aria-label='Close'><span aria-hidden='true'>&times;</span></button></div></div>")
         });
     });
 });
