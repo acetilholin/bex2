@@ -8,20 +8,20 @@ $(document).ready(function () {
     });
 });
 
-$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+$(document).on('click', '[data-toggle="lightbox"]', function (event) {
     event.preventDefault();
     $(this).ekkoLightbox();
 });
 
-$(document).ready(function(){
-    $("a").on('click', function(event) {
+$(document).ready(function () {
+    $("a").on('click', function (event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 800, function () {
                 window.location.hash = hash;
             });
         }
@@ -34,7 +34,7 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function(){
+$(document).ready(function () {
     $('[data-toggle="tooltip1"]').tooltip();
     $('[data-toggle="tooltip2"]').tooltip();
     $('[data-toggle="tooltip3"]').tooltip();
@@ -45,15 +45,34 @@ $(document).ready(function(){
     $('[data-toggle="tooltip8"]').tooltip();
 });
 
-$(document).ready(function(){
-    $(window).scroll(function(){
+$(document).ready(function () {
+    $(window).scroll(function () {
         $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250);
     });
 });
 
 
 $(document).ready(function () {
-    $(window).scroll(function() {
+    var btn = document.getElementById("scroller");
+
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
+            btn.style.display = "block";
+            $('scroller').addClass('visible')
+        } else {
+            btn.style.display = "none";
+            $('scroller').removeClass('visible')
+        }
+    }
+});
+
+
+$(document).ready(function () {
+    $(window).scroll(function () {
         if ($(document).scrollTop() > 50) {
             $('nav').addClass('shrink');
             $("nav .logo").addClass('shrink-image logo-mobile');
@@ -64,8 +83,8 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function() {
-    $(window).scroll(function() {
+$(document).ready(function () {
+    $(window).scroll(function () {
         if ($(this).scrollTop() > 500) {
             $('.top-scroll').fadeIn();
         } else {
@@ -79,11 +98,6 @@ $(function () {
     $('[data-toggle="diesel-info"]').tooltip();
 });
 
-$(function () {
-    const element =  document.querySelector('#toTop')
-  /*  element.classList.add('animated', 'bounceIn');*/
-});
-
 /* Sending message function */
 $(function () {
     $("#emailForm").submit(function (e) {
@@ -93,7 +107,8 @@ $(function () {
             type: "POST",
             url: "sendEmail.php",
             dataType: "json",
-            data: form_data}).done(function (data) {
+            data: form_data
+        }).done(function (data) {
             swal({
                 title: "Nachricht gesendet!",
                 icon: "success",
@@ -108,41 +123,6 @@ $(function () {
         });
     });
 });
-
-
-/*
-optionally for cards
-
-
-$(document).ready(function() {
-    var cards = document.querySelectorAll(".card.effect__click");
-    for (var i = 0, len = cards.length; i < len; i++) {
-        var card = cards[i];
-        clickListener(card);
-    }
-
-    function clickListener(card) {
-        card.addEventListener("click", function () {
-            var c = this.classList;
-            c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
-        });
-    }
-});*/
-
-$(document).ready(function() {
-  /*  var btn = document.getElementById("toTop");
-
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
-            btn.style.display = "block";
-        } else {
-            btn.style.display = "none";
-        }
-    }*/
-});
-
 
 const position = [48.216274, 16.3915678];
 const centerPosition = [48.2169578, 16.4230718];

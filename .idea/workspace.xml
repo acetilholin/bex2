@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a6e731cd-44a6-4a72-85ba-ac38deeca613" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sendEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/sendEmail.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,13 +35,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../av-git/acetilholin.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bex-bau\email" />
       <recent name="C:\xampp\htdocs\bex-bau" />
     </key>
   </component>
@@ -93,7 +97,15 @@
       <workItem from="1574083792737" duration="9691000" />
       <workItem from="1574157396805" duration="6843000" />
       <workItem from="1574184878343" duration="752000" />
-      <workItem from="1574197071086" duration="1314000" />
+      <workItem from="1574197071086" duration="2017000" />
+      <workItem from="1574246821624" duration="2127000" />
+      <workItem from="1574251548849" duration="12845000" />
+      <workItem from="1574333513181" duration="682000" />
+      <workItem from="1574344130415" duration="2381000" />
+      <workItem from="1574356143751" duration="3873000" />
+      <workItem from="1574454460899" duration="5170000" />
+      <workItem from="1574530501377" duration="3885000" />
+      <workItem from="1574628233329" duration="1141000" />
     </task>
     <servers />
   </component>
